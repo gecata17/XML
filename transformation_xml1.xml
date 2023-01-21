@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoservice>
+    <automobile>
+        <brand>Мерцедес</brand>
+        <model>124</model>
+        <horsepower>90</horsepower>
+    </automobile>
+</autoservice>

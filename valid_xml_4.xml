@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE autoservice SYSTEM "auto.dtd">
+
+<autoservice>
+    <automobile>
+        <brand>Сеат</brand>
+        <model>Толедо</model>
+        <horsepower>120</horsepower>
+        <color>Бял</color>
+        <transmition>Ръчна</transmition>
+        <available_on_lising isTrue="НЕ"></available_on_lising>
+        <count_of autos="34"></count_of>
+        <buyer>
+            <name>Киро Шейтанов</name>
+            <personal_number>4567912345</personal_number>
+            <sum_of_purchase>22000.0</sum_of_purchase>
+        </buyer>
+        <manifacturer>
+            <name>Волксваген</name>
+            <company_info>
+                <number_of_employees>1200</number_of_employees>
+                <boss>Мартин Мирчев</boss>
+                <number_of_factories>30</number_of_factories>
+            </company_info>
+            <headquarters>
+                <country>Дания</country>
+                <city>Копенхаген</city>
+                <type>Завод сграда</type>
+            </headquarters>
+            <type_of_automobiles>Комби лек автомобил</type_of_automobiles>
+        </manifacturer>
+        <type>Лек автомобил</type>
+        <data>
+            <day value="23"></day>
+            <month value="10"></month>
+            <year value="2020"></year>
+        </data>
+    </automobile>
+</autoservice>

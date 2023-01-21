@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT autoservice (automobile*)>
+<!ELEMENT automobile (brand, model, horsepower, color, transmition, available_on_lising, count_of, buyer,
+manifacturer, type, data)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT horsepower (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT transmition (#PCDATA)>
+<!ELEMENT available_on_lising (#PCDATA)>
+<!ELEMENT count_of (#PCDATA)>
+<!ELEMENT buyer (name, personal_number, sum_of_purchase)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT personal_number (#PCDATA)>
+<!ELEMENT sum_of_purchase (#PCDATA)>
+<!ELEMENT manifacturer (name, company_info, headquarters, type_of_automobiles)>
+<!ELEMENT type_of_automobiles (#PCDATA)>
+<!ELEMENT headquarters (country, city, type)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT data (day, month, year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT company_info (number_of_employees, boss, number_of_factories)>
+<!ELEMENT number_of_employees (#PCDATA)>
+<!ELEMENT boss (#PCDATA)>
+<!ELEMENT number_of_factories (#PCDATA)>
+
+<!ATTLIST available_on_lising isTrue CDATA #REQUIRED>
+<!ATTLIST day value CDATA #REQUIRED>
+<!ATTLIST month value CDATA #REQUIRED>
+<!ATTLIST year value CDATA #REQUIRED>
+<!ATTLIST count_of autos CDATA #REQUIRED>

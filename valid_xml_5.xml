@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE autoservice SYSTEM "auto.dtd">
+
+<autoservice>
+    <automobile>
+        <brand>Шкода</brand>
+        <model>Октавия</model>
+        <horsepower>150</horsepower>
+        <color>Зелена</color>
+        <transmition>Автоматична</transmition>
+        <available_on_lising isTrue="ДА"></available_on_lising>
+        <count_of autos="660"></count_of>
+        <buyer>
+            <name>Антон Ненков</name>
+            <personal_number>86745231023</personal_number>
+            <sum_of_purchase>5000.0</sum_of_purchase>
+        </buyer>
+        <manifacturer>
+            <name>Шкода</name>
+            <company_info>
+                <number_of_employees>4000</number_of_employees>
+                <boss>Велчо Валентинов</boss>
+                <number_of_factories>200</number_of_factories>
+            </company_info>
+            <headquarters>
+                <country>Чехия</country>
+                <city>Прага</city>
+                <type>Завод Централа</type>
+            </headquarters>
+            <type_of_automobiles>Седан лек автомобил</type_of_automobiles>
+        </manifacturer>
+        <type>Лек автомобил</type>
+        <data>
+            <day value="13"></day>
+            <month value="5"></month>
+            <year value="2009"></year>
+        </data>
+    </automobile>
+</autoservice>

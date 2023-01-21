@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoservice>
+    <automobile>
+        <brand>Ауди</brand>
+        <model>100</model>
+        <horsepower>75</horsepower>
+        <available_on_lising>НЕ</available_on_lising>
+    </automobile>
+</autoservice>

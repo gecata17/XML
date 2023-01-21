@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE autoservice SYSTEM "auto.dtd">
+
+<autoservice>
+    <automobile>
+        <brand>Мерцедес</brand>
+        <model>124</model>
+        <horsepower>90</horsepower>
+        <color>Червен</color>
+        <transmition>Автоматична</transmition>
+        <available_on_lising isTrue="ДА"/>
+        <count_of autos="30"></count_of>
+        <buyer>
+            <name>Иван Иванов</name>
+            <personal_number>1234567890</personal_number>
+            <sum_of_purchase>3000.0</sum_of_purchase>
+        </buyer>
+        <manifacturer>
+            <name>Бенц</name>
+            <company_info>
+                <number_of_employees>2000</number_of_employees>
+                <boss>Петър Петров</boss>
+                <number_of_factories>100</number_of_factories>
+            </company_info>
+            <headquarters>
+                <country>Германия</country>
+                <city>Берлин</city>
+                <type>Офис сграда</type>
+            </headquarters>
+            <type_of_automobiles>Леки автомобили</type_of_automobiles>
+        </manifacturer>
+        <type>Лек автомобил</type>
+        <data>
+            <day value="1"></day>
+            <month value="1"></month>
+            <year value="2004"></year>
+        </data>
+    </automobile>
+</autoservice>

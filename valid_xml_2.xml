@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE autoservice SYSTEM "auto.dtd">
+
+<autoservice>
+    <automobile>
+        <brand>Ауди</brand>
+        <model>100</model>
+        <horsepower>75</horsepower>
+        <color>Черен</color>
+        <transmition>Ръчна</transmition>
+        <available_on_lising isTrue="НЕ"></available_on_lising>
+        <count_of autos="50"></count_of>
+        <buyer>
+            <name>Евгени Иванчев</name>
+            <personal_number>4567341289</personal_number>
+            <sum_of_purchase>1500.0</sum_of_purchase>
+        </buyer>
+        <manifacturer>
+            <name>Волксваген</name>
+            <company_info>
+                <number_of_employees>1999</number_of_employees>
+                <boss>Иван Киров</boss>
+                <number_of_factories>120</number_of_factories>
+            </company_info>
+            <headquarters>
+                <country>Германия</country>
+                <city>Франкфурт</city>
+                <type>Офис централа</type>
+            </headquarters>
+            <type_of_automobiles>Леки автомобили</type_of_automobiles>
+        </manifacturer>
+        <type>Лек автомобил</type>
+        <data>
+            <day value="5"></day>
+            <month value="9"></month>
+            <year value="2021"></year>
+        </data>
+    </automobile>
+</autoservice>

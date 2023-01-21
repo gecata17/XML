@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE autoservice SYSTEM "auto.dtd">
+
+<autoservice>
+    <automobile>
+        <brand>Мини Купър</brand>
+        <model>EС</model>
+        <horsepower>170</horsepower>
+        <color>Сив Металик</color>
+        <transmition>ПолуАвтоматична</transmition>
+        <available_on_lising isTrue="ДА"></available_on_lising>
+        <count_of autos="150"></count_of>
+        <buyer>
+            <name>Тошко Миленов</name>
+            <personal_number>0312564511</personal_number>
+            <sum_of_purchase>5400.0</sum_of_purchase>
+        </buyer>
+        <manifacturer>
+            <name>БМВ</name>
+            <company_info>
+                <number_of_employees>5500</number_of_employees>
+                <boss>Анатоли Тодоров</boss>
+                <number_of_factories>48</number_of_factories>
+            </company_info>
+            <headquarters>
+                <country>Холандия</country>
+                <city>Амстердам</city>
+                <type>Завод сграда</type>
+            </headquarters>
+            <type_of_automobiles>Сув</type_of_automobiles>
+        </manifacturer>
+        <type>Сув</type>
+        <data>
+            <day value="8"></day>
+            <month value="4"></month>
+            <year value="2009"></year>
+        </data>
+    </automobile>
+</autoservice>
